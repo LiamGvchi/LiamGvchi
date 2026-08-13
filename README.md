@@ -9,7 +9,7 @@ Small, opinionated Codex Skills for turning rough intent into executable instruc
 | Skill | Start with / 输入 | Get / 输出 |
 | --- | --- | --- |
 | [**GC AI Speak Translator**](https://github.com/LiamGvchi/gc-ai-speak-translator)<br><code>gc-ai-speak-translator</code> | A rough request that another AI needs to understand.<br>需要交给另一个 AI、但还没说清楚的想法。 | A precise, copy-ready prompt or agent task brief.<br>可直接复制的 Prompt 或 Agent 任务说明。 |
-| [**GC Minimal Zine Poster**](https://github.com/LiamGvchi/gc-minimal-zine-poster)<br><code>gc-minimal-zine-poster-v0-1</code> | A theme, sentence, object, mood, article idea, photo, or content brief.<br>主题、句子、物件、情绪、文章想法、照片或内容 Brief。 | A quiet minimal zine-style poster image, final image prompt, and variation direction.<br>极简 zine 风格海报图片、最终图片 Prompt 与变化方向。 |
+| [**GC Minimal Zine Poster v0.3.1**](https://github.com/LiamGvchi/gc-minimal-zine-poster)<br><code>gc-minimal-zine-poster-v0-3</code> | A theme, sentence, article idea, photo, content brief, or reference set.<br>主题、句子、文章想法、照片、内容 Brief 或参考图集。 | A generated poster and final image prompt, or an evidence-based reusable visual system when analysis is requested.<br>生成的海报与最终生图 Prompt；请求分析时，返回基于证据的可复用视觉系统。 |
 | [**GC Still Image Motion Director**](https://github.com/LiamGvchi/gc-still-image-motion-director)<br><code>gc-still-image-motion-director</code> | A real still image that may become an image-to-video clip.<br>准备交给图生视频模型的真实静态图片。 | A `motion`, `micro-motion`, or `static` decision, stability locks, and a copy-ready image-to-video prompt.<br>动态判断、固定项和可复制的图生视频 Prompt。 |
 
 ## Choose the Right Skill
@@ -36,7 +36,7 @@ gc-ai-speak-translator
         ↓
 clear executable brief
         ↓
-gc-minimal-zine-poster-v0-1
+gc-minimal-zine-poster-v0-3
         ↓
 poster image + final image prompt
         ↓
@@ -54,7 +54,7 @@ gc-ai-speak-translator
         ↓
 清晰、可执行的任务说明
         ↓
-gc-minimal-zine-poster-v0-1
+gc-minimal-zine-poster-v0-3
         ↓
 海报图片 + 最终图片 Prompt
         ↓
