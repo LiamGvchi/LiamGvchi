@@ -1,14 +1,15 @@
 # GC Skills
 
-Small, opinionated Codex Skills for turning rough intent into executable instructions, quiet editorial images, and restrained motion direction.
+Small, opinionated Codex Skills for turning rough intent into executable instructions, preserving character identity in minimal doodles, creating quiet editorial images, and directing restrained motion.
 
-一组克制、可复用的 Codex Skills：把模糊想法变成可执行任务，把主题变成静态视觉，再把真实图片转成图生视频动态 Prompt。
+一组克制、可复用的 Codex Skills：把模糊想法变成可执行任务，在极简手绘中保留角色身份，把主题变成静态视觉，再为真实图片编写克制的动态 Prompt。
 
 ## Public Skills
 
 | Skill | Start with / 输入 | Get / 输出 |
 | --- | --- | --- |
 | [**GC AI Speak Translator**](https://github.com/LiamGvchi/gc-ai-speak-translator)<br><code>gc-ai-speak-translator</code> | A rough request that another AI needs to understand.<br>需要交给另一个 AI、但还没说清楚的想法。 | A precise, copy-ready prompt or agent task brief.<br>可直接复制的 Prompt 或 Agent 任务说明。 |
+| [**GC Minimal IP Doodle**](https://github.com/LiamGvchi/gc-minimal-ip-doodle)<br><code>gc-minimal-ip-doodle</code> | A mascot, toy, animal, or IP-character reference that needs a consistent minimal redraw.<br>需要在极简重绘中保持身份一致的吉祥物、玩具、动物或 IP 角色参考图。 | Identity-preserving minimal doodle illustrations across genuinely distinct small scenes.<br>在真正不同的小场景中生成保持角色身份一致的极简手绘插画。 |
 | [**GC Minimal Zine Poster v0.3.1**](https://github.com/LiamGvchi/gc-minimal-zine-poster)<br><code>gc-minimal-zine-poster-v0-3</code> | A theme, sentence, article idea, photo, content brief, or reference set.<br>主题、句子、文章想法、照片、内容 Brief 或参考图集。 | A generated poster and final image prompt, or an evidence-based reusable visual system when analysis is requested.<br>生成的海报与最终生图 Prompt；请求分析时，返回基于证据的可复用视觉系统。 |
 | [**GC Still Image Motion Director**](https://github.com/LiamGvchi/gc-still-image-motion-director)<br><code>gc-still-image-motion-director</code> | A real still image that may become an image-to-video clip.<br>准备交给图生视频模型的真实静态图片。 | A `motion`, `micro-motion`, or `static` decision, stability locks, and a copy-ready image-to-video prompt.<br>动态判断、固定项和可复制的图生视频 Prompt。 |
 
@@ -16,6 +17,9 @@ Small, opinionated Codex Skills for turning rough intent into executable instruc
 
 - **“I know what I mean, but I do not know how to say it to AI.”**  
   Use [GC AI Speak Translator](https://github.com/LiamGvchi/gc-ai-speak-translator).
+
+- **“I have a character reference and want consistent minimal doodles across different scenes.”**
+  Use [GC Minimal IP Doodle](https://github.com/LiamGvchi/gc-minimal-ip-doodle).
 
 - **“I have a theme or brief and want a finished editorial poster.”**  
   Use [GC Minimal Zine Poster](https://github.com/LiamGvchi/gc-minimal-zine-poster).
@@ -80,6 +84,6 @@ Motion Director 负责动态判断和 Prompt 编写，本身不直接生成最�
 
 ## Install
 
-Open a Skill repository above and follow its installation instructions. Each repository is public, independently maintained, and available under the MIT License.
+Open a Skill repository above and follow its installation instructions. Each repository is public and independently maintained; check its own README for the current license.
 
-进入对应 Skill 仓库，按照各自 README 的安装说明操作。三个项目均为独立公开仓库，并采用 MIT License。
+进入对应 Skill 仓库，按照各自 README 的安装说明操作。四个项目均为独立公开仓库；当前许可证以各仓库说明为准。
